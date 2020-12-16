@@ -1,0 +1,44 @@
+{
+  "name": "api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "develop[watch-admin]": "strapi develop --watch-admin",
+    "start": "strapi start",
+    "build": "strapi build",
+    "build[clean]": "strapi build --clean",
+    "strapi": "strapi",
+    "postinstall": "cd plugins/wysiwyg && npm install"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs": "0.0.1-security",
+    "knex": "<0.20.0",
+    "net": "^1.0.2",
+    "pg": "latest",
+    "strapi": "3.1.5",
+    "strapi-admin": "3.1.5",
+    "strapi-connector-bookshelf": "3.1.5",
+    "strapi-plugin-content-manager": "3.1.5",
+    "strapi-plugin-content-type-builder": "3.1.5",
+    "strapi-plugin-email": "3.1.5",
+    "strapi-plugin-graphql": "^3.1.5",
+    "strapi-plugin-upload": "3.1.5",
+    "strapi-plugin-users-permissions": "3.1.5",
+    "strapi-utils": "3.1.5"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "dd844148-c584-4546-b443-85859d6e6a7c"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
